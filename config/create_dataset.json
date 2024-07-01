@@ -1,0 +1,71 @@
+[
+    {
+        "objects": {
+            "objects": ["dog-1", "collar-2", "cowbell-3", "steps-4", "bag-5"]
+        },
+        "output": {
+            "attributes": [
+                {"name": "dog-1", "attributes": "a brown and white pub dog"},
+                {"name": "collar-2", "attributes": "a black dog chain collar"},
+                {"name": "cowbell-3", "attributes": "a cowbell"},
+                {"name": "steps-4", "attributes": "the steps of a building"},
+                {"name": "bag-5", "attributes": "a large white bag with black writing"}
+            ],
+            "groups": [
+                {"id": "group-1", "group": ["dog-1", "collar-2", "cowbell-3", "steps-4"]}, 
+                {"id": "group-2", "group": ["bag-5"]}
+            ],
+            "layers of depth": {
+                "Foreground": ["group-1"],
+                "Midground": [],
+                "Background": ["group-2"]
+            },
+            "relations": [
+                {"caption": "A dog(dog-1) is sitting on the steps(steps-4) of a building. It is wearing a collar(collar-2). The collar(collar-2) has a cowbell(cowbell-3) attached to it.", "relations": [
+                    {"subject": ["dog-1"], "object": ["steps-4"], "relation": "sitting on"},
+                    {"subject": ["dog-1"], "object": ["collar-4"], "relation": "wearing"},
+                    {"subject": ["cowbell-3"], "object": ["collar-2"], "relation": "attached to"}
+                ]}
+            ],
+            "caption": "A large brown dog(dog-1) is sitting on the steps(steps-4) of a building. It is wearing a black chain dog collar(collar-2). The collar(collar-2) has a cowbell(cowbell-3) attached to it. There is a bag(bag-5) in the background with black writings on it."
+        }
+    },
+    {
+        "objects": {
+            "objects": ["person-1", "person-2", "cellphone-3", "backpack-4", "jacket-5", "umbrella-6", "backpack-7", "flower-8"]
+        },
+        "output": {
+            "attributes": [
+                {"name": "person-1", "attributes": "a woman"},
+                {"name": "person-2", "attributes": "a woman"},
+                {"name": "cellphone-3", "attributes": "a cellphone"},
+                {"name": "backpack-4", "attributes": "a white and gray backpack"},
+                {"name": "jacket-5", "attributes": "a gray jacket"},
+                {"name": "umbrella-6", "attributes": "an umbrella"},
+                {"name": "backpack-7", "attributes": "a black backpack with a white tag"},
+                {"name": "follower-8", "attributes": "a tall planter of flowers"}
+            ],
+            "groups": [
+                {"id": "group-1", "group": ["woman-1", "jacket-5", "backpack-4", "cellphone-3"]},
+                {"id": "group-2", "group": ["woman-2", "umbrella-6", "backpack-7"]},
+                {"id": "group-3", "group": ["follower-8"]}
+            ],
+            "layers of depth": {
+                "Foreground": ["group-1", "group-2"],
+                "Midground": [],
+                "Background": ["group-3"]
+            },
+            "relations": [
+                {"caption": "a woman(woman-1) wearing a jacket(jacket-5), carrying a backpack(backpack-4) and a cellphone(cellphone-3)", "relations": [{"subject": ["woman-1"], "object": ["backpack-4", "cellphone-3"], "relation": "carrying"}, {"subject": ["woman-1"], "object": ["jacket-5"], "relation": "wearing"}]},
+                {"caption": "a woman(woman-2) in a gray coat with a backpack(backpack-7) holding an umbrella(umbrella-6)", "relations": [{"subject": ["woman-2"], "object": ["backpack-4"], "relation": "with"}, {"subject": ["woman-2"], "object": ["umbrella-6"], "relation": "holding"}]}
+            ],
+            "caption": "Two women(woman-1, woman-2) with backpacks(backpack-4, backpack-7) are taking a selfie with cellphone(cellphone-3) in front of a flower-covered(flower-8) wall, enjoying their time together in the city. One of them(woman-1) is wearing a gray jacket(jacket-5) and a white and gray backpack(backpack-4), while the other(woman-2) is holding a umbrella(umbrella-6) and a black backpack(backpack-7) with a white tag. They are surrounded by potted plants and a tall planter of flowers(flower-8)."
+        }
+    },
+    {
+        "objects": {
+            "objects": ["rose-1", "rose-2", "rose-3", "rose-4", "rose-5", "rose-6", "rose-7", "rose-8", "rose-9", "rose-10", "rose", "rose-12", "rose-13", "rose-14", "rose-15", "rose-16", "rose-17", "rose-18", "rose-19", "sky-20", "ocean-21", "pathway-22", "bouquet of flowers-23", "plant-24", "plant-25", "plant-26"]
+        },
+        "output": ""
+    }
+]

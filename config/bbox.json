@@ -1,0 +1,51 @@
+[
+    {
+        "prompt": {
+            "objects": ["airplane-1", "car-2"],
+            "dense_caption": "A commercial aircraft(1) flies low above a white car(2)."
+        },
+        "output": {
+            "width": 480,
+            "height": 640,
+            "Layout": [
+                {"object": "airplane-1", "bbox": [246.23, 276.98, 108.95, 34.85]},
+                {"object": "car-2", "bbox": [134.54, 446.69, 187.18, 157.08]}
+            ]
+        }
+    },
+    {
+        "prompt": {
+            "objects": ["book-1", "computer-2"],
+            "dense_caption": "A book(1) is to the left of an open laptop(2)."
+        },
+        "output": {
+            "width": 375,
+            "height": 500,
+            "Layout": [
+                {"object": "book-1", "bbox": [5.2, 84.03, 263.39, 181.98]},
+                {"object": "computer-2", "bbox": [239.33, 0.94, 135.67, 489.88]}
+            ]
+        }
+    },
+    {
+        "prompt": {
+            "objects": ["refrigerator-1", "oven-2"],
+            "dense_caption": "An oven(2) with a black refrigerator(1) next to it."
+        },
+        "output": {
+            "width": 640,
+            "height": 384,
+            "Layout": [
+                {"object": "refrigerator-1", "bbox": [111.22, 0.05, 175.04, 378.62]},
+                {"object": "oven-2", "bbox": [196.75, 162.23, 222.63, 217.46]}
+            ]
+        }
+    },
+    {
+        "prompt": {
+            "objects": ["man-1", "man-2", "picture-3", "table-4", "clock-5"],
+            "dense_caption": "A picture(picture-3) of two men(man-1, man-2) in the service on a table(table-4) below a clock(clock-5)."
+        },
+        "output": ""
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "qwen-1.5-6b": "Qwen/Qwen1.5-7B-Chat",
+    "qwen-1.5-14b": "Qwen/Qwen1.5-14B-Chat",
+    "qwen-1.5-72b": "Qwen/Qwen1.5-72B-Chat",
+    "internlm-2-20b": "internlm/internlm2-chat-20b",
+    "llama-2-7b": "meta-llama/Llama-2-7b-chat-hf",
+    "llama-2-13b": "meta-llama/Llama-2-13b-chat-hf",
+    "llama-3-8b": "meta-llama/Meta-Llama-3-8B-Instruct/"
+}
